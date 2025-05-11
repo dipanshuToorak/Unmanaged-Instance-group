@@ -1,0 +1,9 @@
+credentials_file       = "./gcp-key.json"              # Path to service account key
+project_id             = "my-gcp-project-id"
+region                 = "us-central1"
+zone                   = "us-central1-a"
+instance_count         = 2
+group_name             = "my-unmanaged-group"
+instance_name_prefix   = "myvm"
+machine_type           = "e2-medium"
+image                  = "debian-cloud/debian-12"      # GCP image format: <project>/<image-family>

@@ -19,3 +19,9 @@ variable "zone" {
   type        = string
   default     = "us-central1-a"
 }
+# Additional vars needed (define in terraform.tfvars):
+# - instance_count
+# - group_name
+# - instance_name_prefix
+# - machine_type
+# - image
