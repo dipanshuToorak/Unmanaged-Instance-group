@@ -15,11 +15,6 @@ variable "zone" {
   default     = "us-central1-a"
 }
 
-variable "credentials_file" {
-  description = "Path to GCP service account JSON key"
-  type        = string
-}
-
 variable "instance_group_name" {
   description = "Name of the existing unmanaged instance group"
   type        = string
